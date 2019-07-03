@@ -1,8 +1,7 @@
 version: '2'
 services:
-  mysql:
-    restart: always
-    image: mysql:5.6.39
+  db:
+    image: mysql:5.7.12
     environment:
       MYSQL_ROOT_PASSWORD: root
     volumes:
