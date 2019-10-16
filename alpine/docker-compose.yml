@@ -4,3 +4,4 @@ services:
     image: alpine:3.10
     tty: true
     stdin_open: true
+
