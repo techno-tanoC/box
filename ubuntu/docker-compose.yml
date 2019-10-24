@@ -4,3 +4,4 @@ services:
     image: ubuntu:18.04
     tty: true
     stdin_open: true
+
