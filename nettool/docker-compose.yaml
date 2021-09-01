@@ -1,9 +1,5 @@
 version: '3.7'
 services:
-  one:
+  app:
     build: .
-    image: techno/secret:one
-  two:
-    build: .
-    image: techno/secret:two
-
+    image: techno/nettool
