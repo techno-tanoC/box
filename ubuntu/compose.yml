@@ -1,7 +1,6 @@
-version: '3'
 services:
   app:
-    image: alpine:3.10
+    image: ubuntu:24.04
     tty: true
     stdin_open: true
 

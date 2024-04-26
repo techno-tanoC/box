@@ -1,7 +1,6 @@
-version: '3'
 services:
   app:
-    image: mysql:5.7.28
+    image: mysql:8.3.0
     environment:
       MYSQL_ROOT_PASSWORD: root
     volumes:
