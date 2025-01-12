@@ -1,0 +1,12 @@
+services:
+  app:
+    image: gcr.io/cloud-sql-connectors/cloud-sql-proxy:2.14.2
+    command:
+      - $CONNECTION_NAME
+      - --address=0.0.0.0
+      - --port=3306
+      - --auto-iam-authn
+    ports:
+      - "3306:3306"
+    volumes:
+      - ~/.config/gcloud:/home/nonroot/.config/gcloud
